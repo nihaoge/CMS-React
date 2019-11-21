@@ -1,0 +1,38 @@
+.cms_layout {
+    aside {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 150px;
+        background: #666;
+        overflow-y: auto;
+    }
+
+    header {
+        position: absolute;
+        left: 150px;
+        right: 0;
+        top: 0px;
+        height: 65px;
+        background: rgb(255, 255, 255);
+    }
+
+    .cms_main {
+        position: absolute;
+        left: 150px;
+        right: 0;
+        top: 65px;
+        bottom: 0;
+        background: rgb(236, 236, 236);
+        padding: 15px;
+
+        main {
+            height: 100%;
+            width: 100%;
+            background: rgb(255, 255, 255);
+            overflow-y: auto;
+        }
+
+    }
+}

@@ -1,0 +1,73 @@
+.new_page_card {
+    padding: 15px;
+    padding-bottom: 130px;
+    
+
+    .npc_block {
+
+        width: 100%;
+
+        .npc_block_top {
+            height: 32px;
+            color: black;
+            font-weight: 900;
+            border-bottom: 1px solid rgb(255, 249, 249);
+
+            
+
+
+        }
+        .pcc_block_row{
+            margin-top:20px;
+           
+
+            .pcc_block_lable{
+                text-align: right;
+                display: block;
+                padding-right:18px;
+    
+    
+            }
+            .pcc_block_radio{
+
+            display: block;
+
+            }
+
+        }
+        
+    }
+}
+
+.npc_block_top1{
+    margin-top:50px;
+    height: 32px;
+            color: black;
+            font-weight: 900;
+            border-bottom: 1px solid rgb(255, 214, 214);
+          
+}
+.pcc_block_row{
+    margin-top:15px;
+}
+.pcc_block_lable{
+    text-align: right;
+    display: block;
+    padding-right:18px;
+
+
+}
+
+.foo{
+    height: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(255, 255, 255);
+    border-top:1px solid rgb(255, 223, 223);
+    Button{
+        margin:6px 30px 0 30px;
+
+    }
+}
